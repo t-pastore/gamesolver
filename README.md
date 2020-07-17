@@ -68,7 +68,7 @@ B = np.array([
 ])
 ```
 
-There is no pure strategy equilibrium in this game. When considering the whole set of strategies, there is no mixed strategy equilibrium neither, because the indifference conditions for player 2 yield incompatible results. One therefore need to check all the strategy supports, \textit{i.e.} columns `(0,1)`, `(0,2)`, `(1,2)` and `(0,1,2)`. Indeed, a restricted set of strategies can yield an equilibrium if the other player anticipate this restriction as optimal.
+There is no pure strategy equilibrium in this game. When considering the whole set of strategies, there is no mixed strategy equilibrium neither, because the indifference conditions for player 2 yield incompatible results. One therefore need to check all the strategy supports, i.e. columns `(0,1)`, `(0,2)`, `(1,2)` and `(0,1,2)`. Indeed, a restricted set of strategies can yield an equilibrium if the other player anticipate this restriction as optimal.
 
 
 ```python
