@@ -89,9 +89,7 @@ Therefore, the optimal strategy for player 1 is to play roughly the first row st
 ## Time complexity analysis
 
 Time complexity increases exponentially because of the need to check all the supports. Indeed, for `n` strategies, the number of sets of strategies to check is:
-\begin{align*}
-    \sum_{k=2}^n C_n^k = \sum_{k=1}^n C_n^k - C_n^1 = 2^n - n
-\end{align*}
+$$ \sum_{k=2}^n C_n^k = \sum_{k=1}^n C_n^k - C_n^1 = 2^n - n $$
 
 ---
 ## Tests
