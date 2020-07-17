@@ -99,8 +99,3 @@ Time complexity increases exponentially because of the need to check all the sup
 The module uses `unittest`. To run tests:
 
 `python -m unittest discover`
-
-
-```python
-
-```
